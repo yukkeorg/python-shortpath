@@ -1,10 +1,9 @@
+""" Short Path
 """
-  Short Path
-"""
+from typing import Union
 
 import os.path
 from pathlib import Path
-from typing import Union
 
 
 def shortpath(p: Union[Path, str]) -> str:
